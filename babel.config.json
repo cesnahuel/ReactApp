@@ -1,0 +1,10 @@
+{    
+    "_comment": "Comentario: la libreria corejs indica el uso de Polyfill (permite usar funciones js mas recientes como Promesas, Map, etc) y poder ser traducidas para que el navegador las interprete correctamente ",
+    "_comment1": "Previamente se debe instalar por consola, y luego en el package.json se deben mencionar los navegadores compatibles (browserslist)",
+    "presets": [["@babel/preset-env", { 
+        "corejs": 3.6,
+        "useBuiltIns": "usage"
+    }], "@babel/preset-react"]
+
+}
+
